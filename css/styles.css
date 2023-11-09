@@ -547,7 +547,7 @@ address {
   margin-bottom: 16px;
 }
 .form-box {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .form-box-label {
   color: #8e8f99;
@@ -631,11 +631,8 @@ address {
 .checkbox-box input:checked + .user-privacy-text .checking-box {
   background-color: #404bbf;
   border: none;
-}
-.checkbox-box input:checked + .user-privacy-text .checking-icon use {
   fill: #f4f4fd;
 }
-
 .user-privacy-text {
   color: #8e8f99;
   font-size: 12px;
