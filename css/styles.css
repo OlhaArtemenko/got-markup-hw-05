@@ -465,6 +465,9 @@ address {
   color: #fff;
   border: none;
   cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .icon-sub-plane {
   margin-left: 16px;
@@ -544,7 +547,7 @@ address {
   margin-bottom: 16px;
 }
 .form-box {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .form-box-label {
   color: #8e8f99;
@@ -573,9 +576,12 @@ address {
 .input-field:focus {
   border-color: #4d5ae5;
 }
+.icon-pic:focus-within .form-box-icon {
+  fill: #4d5ae5;
+}
 .form-box-icon {
   position: absolute;
-  left: 15px;
+  left: 16px;
   top: 50%;
   transform: translateY(-50%);
   fill: #2e2f42;
@@ -615,10 +621,15 @@ address {
   fill: transparent;
   margin-right: 8px;
 }
+.input-checkbox:checked .checking-box {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
 .user-privacy-text {
-  color: #8e8f99;
+  color: #2E2F42 40%;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -641,6 +652,13 @@ address {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-send-modal:hover,
+.btn-send-modal:focus {
+  background-color: #404bbf;
 }
 .btn-send-box {
   display: flex;
