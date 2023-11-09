@@ -547,6 +547,9 @@ address {
   margin-bottom: 16px;
 }
 .form-box {
+  margin-bottom: 8px;
+}
+.comment-box {
   margin-bottom: 16px;
 }
 .form-box-label {
