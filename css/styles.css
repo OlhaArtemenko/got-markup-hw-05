@@ -469,6 +469,10 @@ address {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: #404bbf;
+}
 .icon-sub-plane {
   margin-left: 16px;
 }
